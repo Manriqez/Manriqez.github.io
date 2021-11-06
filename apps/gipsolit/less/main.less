@@ -1,0 +1,819 @@
+/* Colors */
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+input,
+select,
+textarea {
+  border: 1px solid #aaa;
+}
+textarea {
+  resize: unset;
+}
+.button {
+  background-color: #fcb303;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+}
+button,
+input,
+textarea,
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Typography */
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0px 10rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.6rem;
+  &-subtitle {
+  	text-align: center;
+  	font-size: 1.5rem;
+  }
+}
+.price-list, .work-scheme, .all-inclusive, .materials, .preferences {
+  .section-header {
+    margin-bottom: 2rem;
+    &-subtitle {
+      margin-bottom: 10rem;
+    }
+  }
+}
+
+/* Forms */
+.form-input {
+  display: block;
+  width: 100%;
+  border-color: #dddddd;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+.form label {
+  position: absolute;
+  padding: 0.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+  font-size: 1.3rem;
+}
+.form-btn {
+  display: block;
+  height: 5.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.main-form, .promo-form, .contacts-form {
+  background-color: #ffffff;
+  padding: 4rem 5rem;
+  text-align: center;
+  /* Заголовок формы */
+  /* Поле для ввода */
+  /* Кнопка отправить заявку */
+  /* Подпись под кнопкой */
+}
+.main-form-header {
+  margin-bottom: 4rem;
+  font-size: 1.7rem;
+}
+.main-form-header strong {
+  font-size: 1.75rem;
+}
+
+.main-form, .promo-form small {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+/* Main */
+.main {
+  padding: 3rem 0 10rem 0;
+  background: #ffffff url(../img/images/bg-main.jpg) center center no-repeat;
+  background-size: cover;
+  /* Подзаголовок */
+  /* Зеленый ярлык */
+  /* Оплата по факту */
+  /* Главная форма */
+}
+.main .header {
+  height: 100%;
+}
+.main-content {
+  margin-top: 10rem;
+  /* Главный заголовок */
+}
+.main-content h1 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-weight: bold;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.45;
+}
+.main-subtitle {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 5rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: #46b814;
+  margin-bottom: 3rem;
+  /* Цифра 300 рублей */
+}
+.main span strong, .price-list-block-title strong {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.main-trigger {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: block;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phone-block {
+  text-align: right;
+}
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-weight: 900;
+  font-size: 1.7rem;
+  height: 7rem;
+  line-height: 7rem;
+}
+.main-content {
+  margin-top: 10rem;
+}
+
+/* Оформление секции с преимуществами */
+.features {
+  &-block {
+    text-align: center;
+    h3 {
+    	font-size: 2rem;
+    	font-weight: bold;
+    }
+    p {
+    	display: inline-block;
+    	width: 85%;
+    	font-size: 1.4rem;
+    }
+  }
+ 	&-img {
+ 		height: 8rem;
+ 		margin-bottom: 3rem;
+ 		img {
+ 			display: block;
+			margin: 0 auto;
+ 		}
+ 	} 
+}
+.slick-active {
+	outline: none;
+}
+
+.features-arrow.arrow {
+	position: absolute;
+	top: 50%;
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+	background: url(../img/icons/right-arrow.svg) center no-repeat;
+	background-size: 100%;	
+	outline: none;
+}
+.arrow:focus {
+	outline: none;
+}
+.features-arrow.prev {
+	left: -5px;
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);	
+}
+.features-arrow.next {
+	right: -5px;
+}
+
+
+
+/* Price-list section */
+.price-list {
+	background-color: #276a0a;
+	color: #fff;
+	.section-row-header .section-header {
+		margin-bottom: 2rem;
+	}
+	&-items {
+		margin-top: 9rem;
+	}
+	&-block {
+		display: flex;
+		flex-direction: column;
+		color: #1a1820;
+		background-color: #fff;
+		padding: 5rem;
+		text-align: center;
+		height: 100%;
+		&-header {
+			margin-bottom: 	4rem;
+			h2 {
+				font-size: 1.8rem;
+				font-weight: bold;
+			}
+		}
+		&-image {
+			margin-bottom: 1.5rem; 
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&-title {
+			font-size: 1.7rem;
+			font-weight: bold;
+			margin-bottom: 1.5rem;
+		}
+		&-subtitle {
+			ul {
+				list-style-image: url(../img/icons/checked.png);
+				list-style-position: inside;
+				padding-left: 0;
+				margin-left: 0;
+				font-size: 1.5rem;
+				li:not(:last-child) {
+					margin-bottom: 0.6rem;
+				}
+			}
+		}
+		&-button {
+			display: flex;
+			flex: 1;
+			width: 100%;
+			button {
+				align-self: flex-end;
+			}
+		}
+	}
+	}
+
+/* Feedback section */
+.feedback {
+  position: relative;
+  background: url(../img/images/bg-feedback.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  &-text {
+    position: relative;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 2px solid #47ba14;
+    font-style: italic;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -2rem;
+      left: 4rem;
+      width: 2rem;
+      height: 2rem;
+      border: 2px solid #47ba14;
+      background-color: #fff;
+      border-bottom: none;
+      border-top-right-radius: 100px;
+    }
+  }
+  &-slider {
+    padding: 5rem 6rem;
+    background-color: #fff;
+    box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+    p {
+      font-size: 1.6rem;
+    }
+    .media {
+      margin-top: 3rem;
+      font-size: 1.4rem;
+      h4 {
+        font-weight: bold;
+      }
+    }
+  }
+  /* Форма обратной связи */
+  &-form {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 4rem 10rem;
+    h3 {
+      font-weight: 500;
+      font-size: 2rem;
+    }
+    label {
+      transform: translate(-50%, 5px);
+    } 
+  }
+  &-btn {
+     max-width: 30rem;
+     margin: auto;
+  }
+  &-hand {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 30rem;
+  }
+}
+.feedback-arrow.arrow {
+  position: absolute;
+  bottom: 40%;
+  z-index: 99;
+  width: 4rem;
+  height: 6rem;
+  border: none;
+  background: url(../img/icons/feedback_left-arrow.png) center no-repeat;
+  background-size: 100%;  
+  outline: none;
+}
+.feedback-arrow.prev {
+  left: -4rem;
+}
+.feedback-arrow.next {
+  right: -4rem;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* Work-scheme section */
+
+.work-scheme {
+  background: url(../img/images/scheme-work-hand.png) bottom right -10rem no-repeat;
+  background-size: 50rem;
+  .section-header {
+    margin-bottom: 2rem;
+    &-subtitle {
+      margin-bottom: 10rem;
+    }
+  }
+  &-wrapper {
+    .scheme-block {
+      img {
+        min-height: 11rem;
+        height: 100%;
+      }
+      h3 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin: 3rem 0 2.5rem 0;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+/* section Все включено */
+.all-inclusive {
+  background-color: #f5f5f5;
+  .section-header {
+    color: #358015;
+  }
+  .media {
+    .circle {
+      padding: 1px;
+      margin-right: 2rem;
+      border: 2px solid #358f0f;
+      border-radius: 50%;
+      &-inner {
+        width: 5rem;
+        height: 5rem;
+        background-color: #358f0f;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        padding-left: 1.7rem;
+        h3 {
+          line-height: 4.5rem;
+          color: #fff;
+          font-weight: bold;
+        }
+      }
+    }
+    &-body {
+      margin: auto 0;
+      h5 {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+/* section No-problems */
+.no-problems {
+  position: relative;
+  &-list {
+    border: 3px solid #e8e8e8;
+    padding: 3rem;
+    h3 {
+      font-size: 2.1rem;
+    }
+    ul {
+      padding: 0;
+      margin-top: 4rem;
+      list-style: none;
+      min-height: 23rem;
+      li {
+        position: relative;
+        padding-left: 3rem;
+        font-size: 1.4rem;
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 4px;
+          width: 16px;
+          height: 16px;
+        }
+        &:not(:last-child) {
+          margin-bottom: 3rem;
+        }
+      }
+    }
+    &_bad {
+      border-color: #e8e8e8;
+      h3 {
+        color: #e8e8e8;
+      }
+      ul li:before {
+        background: url(../img/icons/cancel.png) center no-repeat;
+        background-size: 100%;
+      }
+    }
+    &_good {
+      border-color: #358015;
+      ul li:before {
+        background: url(../img/icons/checked.png) center no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+  .problem-women {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 30rem;
+    margin-left: -18rem;
+  }
+}
+
+/* section Materials */
+.materials {
+  background: url(../img/images/bg-materials.jpg);
+  &-list {
+    &_item {
+      text-align: center;
+      img {
+        height: 16rem;
+      }
+      h3 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin: 1rem;
+      }
+      p {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      strong.material-price {
+        font-weight: bold;
+      }
+      .material-sertificate {
+        color: #6ba253;
+        font-size: 1.6rem;
+        text-decoration: underline;
+      }
+    }
+  }
+  &-link {
+    font-size: 1.8rem;
+    margin-top: 8rem;
+    a {
+      color: #509134;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Section PROMO */
+
+.promo {
+  background: url(../img/images/bg-promo.jpg) center top no-repeat;
+
+  &-main {
+    h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #292929;
+      margin-bottom: 5rem;
+      text-transform: uppercase;
+    }
+    p {
+      margin-top: 2rem;
+      font-size: 2rem;
+      color: #292929;
+    }
+  }
+}
+
+/* Section Preferences */
+
+.preferences {
+  background-color: #286b0a;
+  .section-header, .section-header-subtitle, h4 {
+    color: #fff;  
+  }
+  &-block {
+    &_item {
+      padding: 0 3.5rem;
+      text-align: center;
+      img {
+        width: 100%;
+      }
+      h4 {
+        margin: 3rem 0;
+      }
+      button.form-btn {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 5rem;
+      }
+    }
+  }
+}
+
+/* Section CONTACTS */
+
+.contacts {
+  background: url(../img/images/bg-contacts.jpg) center center;
+  background-size: cover;
+  &-info {
+    h3 {
+      font-size: 3.6rem;
+      margin-bottom: 6rem;
+      font-weight: bold;
+    }
+    p {
+      font-size: 1.8rem;
+      margin-bottom: 3rem;
+    }
+    iframe {
+      margin: 2rem 0;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+  &-form {
+    form {
+      button {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+/* Footer */
+
+.footer {
+  margin: 3.5rem 0;
+  &-contacts {
+    text-align: center;
+    a, p {
+      font-size: 1.5rem;
+      text-decoration: underline;
+      color: black;
+    }
+    .footer-phone {
+      text-decoration: none;
+    }
+  }
+  .author {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    a {
+      color:#A635E7;
+    }
+  }
+}
+
+/* Оформление всплывающих окон */
+.popup {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0.5);
+	&-form {
+		padding: 1rem 2rem;
+	}
+	&-close {
+		position: absolute;
+		top: -2rem;
+		right: -2rem;
+		width: 2rem;
+		text-align: center;
+		border: none;
+		background-color: transparent;
+		font-size: 3rem;
+		color: #fff;
+	}
+	&-content {
+		position: fixed;
+		text-align: center;
+		left: 50%;
+		top: 10%;
+		transform: translateX(-50%);
+		background-color: #fff;
+		padding: 2rem 1rem;
+	}
+	&-header {
+		font-weight: bold;
+	}
+}
+@media (max-width: 1199px) {
+  .feedback-form {
+    padding: 3rem 5rem;
+  }
+  .fotorama {
+    margin-bottom: 3rem;
+  }
+  .no-problems {
+    &-list {
+      ul {
+        min-height: 28rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) { // Все что меньше 991px
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .feedback {
+    &-hand {
+      display: none;
+    }
+  }
+  .no-problems {
+    &-list {
+      &_bad {
+        margin-bottom: 5rem;
+      }
+    }
+    .problem-women {
+      display: none;
+    }
+  }
+  .promo {
+    background-size: cover;
+    &-form {
+      margin-top: 5rem;
+    }
+  }
+  .preferences {
+    &-block {
+      &_item {
+        &:not(:first-child) {
+          margin-top: 3rem;
+          border-top: 2px solid white;
+          padding-top: 3rem;
+        }
+      }
+    }
+  }
+  .all-inclusive {
+    .media {
+      margin-bottom: 2.5rem;
+    }
+  }
+  .materials {
+    &-list {
+      &_item {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 767px) { // Все что меньше 767
+  .form-btn {
+    font-size: 1.5rem;
+  }
+  .main {
+    background-position: top left;
+  }
+  .logo,
+  .wrap-block {
+    text-align: center;
+  }
+  .main-content h1 {
+  	font-size: 3rem;
+  }
+  .feedback-arrow.prev {
+    left: 0;
+  }
+  .feedback-arrow.next {
+    right: 0;
+  }
+  .work-scheme {
+    background-size: 40rem;
+  }
+  .promo {
+    background: none;
+  }
+  .preferences {
+    h2.section-header {
+      font-size: 2rem;
+    }
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-content {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  .work-scheme {
+    background: none;
+    text-align: center;
+  }
+  iframe {
+    width: 90%;
+  }
+}
