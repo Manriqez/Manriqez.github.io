@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-Z</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+</head>
+
+<body>
+  <!-- <div id="blink">ЕГОР БЛЯТЬ</div> -->
+  <header>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="logo col-3"><a href="index.html"><img src="assets/images/logo.png" alt="ProjectZ Minecraft DayZ"></a></div>
+        <nav class="nav nav-custom header-nav offset-3 col-6">
+          <a class="nav-link active" href="#">
+            <i class="fa fa-vk fa-2x"></i>Вконтакте
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i>Правила
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-money fa-2x" aria-hidden="true"></i>Донат
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="promo">
+    <div class="promo-outer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="promo-content col-7">
+            <h4>Подписывайтесь на нас вконтакте</h4>
+            <p>Подписывайся и будь в курсе новостей</p>
+          </div>
+          <div class="promo-image offset-1 col-4">
+            <img src="assets/images/promo-banner.png" alt="Dayz в майнкрафте">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="content-outer">
+    <div class="container">
+      <div id="page-content" class="row">
+        <div id="primary" class="col-8">
+          <article class="startplay">
+            <div class="row">
+              <div class="startplay-column col">
+                <div class="column-head">1. Создайте аккаунт</div>
+                <div class="column-content">
+                  <p>Первым делом Вам необходимо создать аккаунт на нашем сайте. Перед регистрацией рекомендуем ознакомиться с
+                    правилами сервера.</p>
+                  <p>Если у Вас уже есть аккаунт на нашем сайте, то воспользуйтесь формой авторизации.</p>
+                  <a href=""><button class="btn">Создать аккаунт</button></a>
+                  <a href=""><button class="btn">Авторизоваться</button></a>
+                </div>
+              </div>
+              <div class="startplay-column col">
+                <div class="column-head">2. Установите лаунчер</div>
+                <div class="column-content">
+                  <p>По причиние того, что <b>мы используем собственные моды,</b> вход на сервер осуществляется только через наш
+                    лаунчер, который
+                    можно скачать ниже. Он сам загрузит, установит и настроит клиент для игры.
+                  </p>
+                  <span>Для работы лаунчера требуется .NET Framework 4.0 или выше. В случае необходимости можно скачать с официального
+                    сайта Microsoft.
+                  </span>
+              
+                  <a href=""><button class="btn">Скачать для Windows</button></a>
+              
+                </div>
+              </div>
+              <div class="startplay-column col">
+                <div class="column-head">3. Играйте</div>
+                <div class="column-content">
+                  <p>После загрузки Вам необходимо запустить лаунчер и ввести там свой логин и пароль, которые Вы указали при
+                    регистрации.
+                    Дальше просто выберите сервер и играйте!</p>
+                  <p>Рекомендуем сразу подписаться на наше сообщество в VK. <b>Именно там Вы можете раньше всех узнать про акции и
+                      обновления.</b></p>
+              
+              
+                  
+                  
+                  <!-- VK Widget -->
+                  <div id="vk_groups"></div>
+                  <script type="text/javascript">
+                    VK.Widgets.Group("vk_groups", { mode: 1 }, 148946111);
+                  </script>
+                </div>
+              </div>
+            </div>
+            <div class="call-center">
+              <h5>Появились вопросы или проблемы? Не знаете, что делать?<br>Пишите нам, мы обязательно поможем!</h5>
+              <a href=""><button class="btn">Служба поддержки</button></a>
+            </div>
+          </article> <!-- post end -->
+        </div>
+        <div id="secondary" class="col-4">
+          <aside id="sidebar">
+            <div class="widget widget_button">
+              <a href="#" class="btn">Начать играть!</a>
+            </div>
+            <div class="widget widget_registration">
+              <div class="widget-head">
+                <img src="" alt="">
+
+                <h4>
+                  <span><i class="fa fa-angle-double-right"></i></span>
+                  Авторизация
+                </h4>
+              </div>
+              <div class="widget-body">
+                <form action="action_page.php">
+                  <input type="text" placeholder="Логин">
+                  <input type="password" placeholder="Пароль">
+                  <div class="container sign">
+                    <a href="#">Регистрация</a>
+                  </div>
+                  <button type="submit" class="btn registerbtn">Войти</button>
+                </form>
+              </div>
+
+            </div>
+            <div class="widget widget_monitoring">
+              <div class="widget-head">
+                <h4>Сервера</h4>
+              </div>
+              <div class="widget-body">
+                <div class="monitoring-box">
+                  <div class="monitoring-box__title">DayZ:</div>
+                  <div class="monitoring-box__progress">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:45%;"
+                        role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45/100</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="copyright col-12">Copyright © DvaDauna, 2018-2020</div>
+        <nav class="nav nav-custom footer-nav col-12 justify-content-center">
+          <a class="nav-link active" href="#">
+            <i class="fa fa-vk fa-2x"></i>Вконтакте
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i>Правила
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-money fa-2x" aria-hidden="true"></i>Донат
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

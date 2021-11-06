@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-Z</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+</head>
+
+<body>
+  <!-- <div id="blink">ЕГОР БЛЯТЬ</div> -->
+  <header>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="logo col-3"><a href="index.html"><img src="assets/images/logo.png"
+              alt="ProjectZ Minecraft DayZ"></a></div>
+        <nav class="nav nav-custom header-nav offset-3 col-6">
+          <a class="nav-link active" href="#">
+            <i class="fa fa-vk fa-2x"></i>Вконтакте
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i>Правила
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-money fa-2x" aria-hidden="true"></i>Донат
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="promo">
+    <div class="promo-outer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="promo-content col-7">
+            <h4>Подписывайтесь на нас вконтакте</h4>
+            <p>Подписывайся и будь в курсе новостей</p>
+          </div>
+          <div class="promo-image offset-1 col-4">
+            <img src="assets/images/promo-banner.png" alt="Dayz в майнкрафте">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="content-outer">
+    <div class="container">
+      <div id="page-content" class="row">
+        <div id="primary" class="col-8">
+          <article class="registration">
+            <div class="row">
+              <div class="registration-column col-6 offset-3">
+                <h4>Регистрация</h4>
+                <form action="action_page.php">
+                  <div class="form-group">
+                    <label for="login">Логин:</label>
+                    <input type="text" class="form-control" id="login" aria-describedby="helpLogin" required>
+                    <small id="helpLogin" class="form-text text-muted">Подсказка</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" class="form-control" id="password" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="repeat-password">Повторите пароль:</label>
+                    <input type="password" class="form-control" id="repeat-password" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Создать аккаунт!</button>
+                </form>
+              </div>
+            </div>
+          </article> <!-- post end -->
+        </div>
+        <div id="secondary" class="col-4">
+          <aside id="sidebar">
+            <div class="widget widget_button">
+              <a href="#" class="btn">Начать играть!</a>
+            </div>
+            <div class="widget widget_registration">
+              <div class="widget-head">
+                <img src="" alt="">
+
+                <h4>
+                  <span><i class="fa fa-angle-double-right"></i></span>
+                  Авторизация
+                </h4>
+              </div>
+              <div class="widget-body">
+                <form action="action_page.php">
+                  <input type="text" placeholder="Логин">
+                  <input type="password" placeholder="Пароль">
+                  <div class="container sign">
+                    <a href="#">Регистрация</a>
+                  </div>
+                  <button type="submit" class="btn registerbtn">Войти</button>
+                </form>
+              </div>
+
+            </div>
+            <div class="widget widget_monitoring">
+              <div class="widget-head">
+                <h4>Сервера</h4>
+              </div>
+              <div class="widget-body">
+                <div class="monitoring-box">
+                  <div class="monitoring-box__title">DayZ:</div>
+                  <div class="monitoring-box__progress">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:45%;"
+                        role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45/100</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="copyright col-12">Copyright © DvaDauna, 2018-2020</div>
+        <nav class="nav nav-custom footer-nav col-12 justify-content-center">
+          <a class="nav-link active" href="#">
+            <i class="fa fa-vk fa-2x"></i>Вконтакте
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i>Правила
+          </a>
+          <a class="nav-link" href="#"><img src="" alt="">
+            <i class="fa fa-money fa-2x" aria-hidden="true"></i>Донат
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
